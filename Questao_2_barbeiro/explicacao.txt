@@ -1,0 +1,7 @@
+Algotimo do barbeiro dorminhoco:
+
+Em uma barbearia há um barbeiro, uma cadeira para ele cortar o cabelo de um cliente, e N cadeiras para clientes esperarem sua vez de cortar o cabelo. Quando não há clientes, o barbeiro se senta na cadeira de trabalho e dorme, quando um cliente chega é preciso acordar o barbeiro. Se outros clientes chegam enquanto ele corta o cabelo de um cliente, eles sentam nas cadeiras e esperam, ou saem da barbearia caso todas as cadeiras estejam ocupadas. 
+
+O problema é programar o barbeiro e os clientes sem cair em condição de disputa.
+
+Para se solucionar o problema usamos semáforos e mutex(exclusão mútua nas regiões críticas do algoritmo.
